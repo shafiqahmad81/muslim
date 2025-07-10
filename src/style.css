@@ -16,9 +16,18 @@ body{
   @apply font-open
 }
 
+@layer base{
+  h2{
+    @apply text-2xl lg:text-3xl font-bold text-black
+  }
+}
+
 @layer components{
   .btn{
     @apply text-white bg-[#13a462] border-[#13a462] py-2.5 px-3 text-base rounded-xs leading-5 font-semibold
+  }
+  .subcribe-item{
+    transition: all 0.3s ease-in-out;
   }
 }
 
